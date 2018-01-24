@@ -6,11 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
-#data
-data/
-
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -26,7 +24,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -55,8 +52,6 @@ coverage.xml
 
 # Django stuff:
 *.log
-.static_storage/
-.media/
 local_settings.py
 
 # Flask stuff:
@@ -84,14 +79,13 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# dotenv
 .env
+
+# virtualenv
 .venv
-env/
 venv/
 ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -105,5 +99,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-
-save/
